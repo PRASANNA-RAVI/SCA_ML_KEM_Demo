@@ -13,16 +13,12 @@ git clone --recurse-submodules https://github.com/PRASANNA-RAVI/SCA_ML_KEM_Demo.
 
 * Compile the Code as follows:
 ```commandline
-make run_kyber512
 make run_kyber768
-make run_kyber1024
 ```
 
 * Run the Code as follows:
 ```commandline
-./run_kyber512
 ./run_kyber768
-./run_kyber1024
 ```
 
 ### Cloud Environment

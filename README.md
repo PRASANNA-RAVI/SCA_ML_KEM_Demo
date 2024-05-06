@@ -24,5 +24,5 @@ make run_attack
 ### Cloud Environment
 1. Go to [C Online Compiler & Interpreter based on Replit](https://replit.com/languages/C)
 2. Create an account on Replit
-3. You can import code from [this github link](https://github.com/PRASANNA-RAVI/SCA_ML_KEM_Demo.git) or you can just import local files from machine.
+3. You can import code from [this github link](https://github.com/PRASANNA-RAVI/SCA_ML_KEM_Demo/) or you can just import local files from machine.
 

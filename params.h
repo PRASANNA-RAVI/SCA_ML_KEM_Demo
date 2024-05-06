@@ -5,7 +5,7 @@
 #define KYBER_K 4	/* Change this for different security strengths */
 #endif
 
-#define INTERACTIVE_MODE 0
+#define INTERACTIVE_MODE 1
 
 //#define KYBER_90S	/* Uncomment this if you want the 90S variant */
 

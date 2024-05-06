@@ -222,13 +222,14 @@ static int test_kem_cca()
           int identified_correct = 0;
           int number_got_from_user;
           
-          printf("Correct Value is: %d\n", secret_key_module[i][index_now]);
+          // printf("Correct Value is: %d\n", secret_key_module[i][index_now]);
           while(identified_correct == 0)
           {
+            printf("Guess the Secret Coefficient: ");
             scanf("%d", &number_got_from_user);
             if(number_got_from_user == secret_key_module[i][index_now])
             {
-              printf("Your guess for the coefficient is correct...\n");
+              printf("Your guess of %d for the coefficient is correct...\n", number_got_from_user);
               identified_correct = 1;
             }
             else
@@ -250,13 +251,14 @@ static int test_kem_cca()
           int identified_correct = 0;
           int number_got_from_user;
 
-          printf("Correct Value is: %d\n", secret_coeff[i][KYBER_N-(j)+parallel_rep]);
+          // printf("Correct Value is: %d\n", secret_coeff[i][KYBER_N-(j)+parallel_rep]);
           while(identified_correct == 0)
           {
+            printf("Guess the Secret Coefficient: ");
             scanf("%d", &number_got_from_user);
             if(number_got_from_user == secret_key_module[i][KYBER_N-(j)+parallel_rep])
             {
-              printf("Your guess for the coefficient is correct...\n");
+              printf("Your guess of %d for the coefficient is correct...\n", number_got_from_user);
               identified_correct = 1;
             }
             else

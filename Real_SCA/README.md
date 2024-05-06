@@ -1,6 +1,6 @@
 # Attack_scripts
 
-This directory contains attack traces and scripts to carry out the attack for Kyber. There are three trace sets. Two trace sets contain pre-processing traces corresponding to the decrypted message (for Kyber). Each trace set has about 50 traces each. The third trace set has the traces to perform key recovery. The attack script for each scheme is present in the (.m) MATLAB file. The correct secret key used during the attack is stored in a `.dat` file in the respective directories. The MATLAB file uses the correct secret key to deduce the success rate of the attack.
+This directory contains attack traces and scripts to carry out the attack for ML-KEM. There are three trace sets. Two trace sets contain pre-processing traces corresponding to the decrypted message (for ML-KEM). Each trace set has about 50 traces each. The third trace set has the traces to perform key recovery. The attack script for each scheme is present in the (.m) MATLAB file. The correct secret key used during the attack is stored in a `.dat` file in the respective directories. The MATLAB file uses the correct secret key to deduce the success rate of the attack.
 
 ## PC oracle-based Attack:
 

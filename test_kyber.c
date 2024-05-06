@@ -256,7 +256,7 @@ static int test_kem_cca()
           {
             printf("Guess the Secret Coefficient: ");
             scanf("%d", &number_got_from_user);
-            if(number_got_from_user == secret_key_module[i][KYBER_N-(j)+parallel_rep])
+            if(number_got_from_user == -1*secret_key_module[i][KYBER_N-(j)+parallel_rep])
             {
               printf("Your guess of %d for the coefficient is correct...\n", number_got_from_user);
               identified_correct = 1;

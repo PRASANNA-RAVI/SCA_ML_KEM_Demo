@@ -1,5 +1,3 @@
-
-
 # Binary Plaintext Checking oracle based SCA Demo on ML-KEM
 :warning: **This code is for demonstrative purposes!** :warning:
 

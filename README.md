@@ -11,12 +11,19 @@ This code demonstrates Binary Plaintext Checking (PC) Oracle based Side-Channel 
 git clone --recurse-submodules https://github.com/PRASANNA-RAVI/SCA_ML_KEM_Demo.git
 ```
 
+* Change to Simulated_SCA directory:
+```commandline
+cd Simulated_SCA
+```
+
+* Can run the code in interactive mode (default) or non-interactive mode (to run full attack)
+
 * Compile the Code as follows:
 ```commandline
 make run_attack
 ```
 
-* Run the Code as follows:
+* To run the Code:
 ```commandline
 ./run_attack
 ```

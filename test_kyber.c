@@ -163,6 +163,17 @@ static int test_kem_cca()
         crypto_kem_enc_attack(ct, ss_a, pk);
         crypto_kem_dec(ss_b, ct, sk);
 
+        #if (INTERACTIVE_MODE == 0)
+
+        printf("Decrypted Message: [ ");
+        for(int jj = 0; jj < 32; jj++)
+        {
+          printf("%02x, ", global_message_oracle_value[jj]);
+        }
+        printf(" ]\n");
+
+        #endif
+        
         #if (INTERACTIVE_MODE == 1)
 
           printf("\nOracle Response: %d\n", global_message_oracle_value[0]&0x1);

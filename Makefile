@@ -13,8 +13,8 @@ HEADERSNINETIES = $(HEADERS) aes256ctr.h sha2.h
 
 .PHONY: all speed shared clean
 
-run_kyber768: $(SOURCESKECCAK) $(HEADERSKECCAK) test_kyber.c randombytes.c
-	$(CC) $(CFLAGS) -DKYBER_K=3 $(SOURCESKECCAK) randombytes.c test_kyber.c -o run_kyber768
+run_attack: $(SOURCESKECCAK) $(HEADERSKECCAK) test_kyber.c randombytes.c
+	$(CC) $(CFLAGS) $(SOURCESKECCAK) randombytes.c test_kyber.c -o run_attack
 
 clean:
-	-$(RM) -rf run_kyber768
+	-$(RM) -rf run_attack
